@@ -9,7 +9,7 @@ def hello_world():
 
 
 @app.route('/test')
-def hello_world():
+def test():
     return 'test version'
 
 
