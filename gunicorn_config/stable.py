@@ -8,9 +8,9 @@ import multiprocessing
 debug = True
 loglevel = 'debug'
 bind = '127.0.0.1:12345' # dev的端口
-pidfile = '/tmp/gunicorn.pid'
-logfile = '/tmp/debug.log'
-errorlog = "/tmp/error.log"
+pidfile = '/tmp/pdex_gunicorn.pid'
+logfile = '/tmp/pdex_debug.log'
+errorlog = "/tmp/pdex_error.log"
 
 timeout = 60
 
