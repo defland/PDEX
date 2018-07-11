@@ -8,6 +8,10 @@ def hello_world():
     return 'hello pandadex!'
 
 
+@app.route('/test')
+def hello_world():
+    return 'test version'
+
 
 
 
