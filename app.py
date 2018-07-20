@@ -19,8 +19,8 @@ def test():
 @app.route('/')
 @app.route('/index')
 def index():
-    return "test"
-    # return render_template('index.html')
+    # return "test"
+    return render_template('index.html')
 
 
 if __name__ == "__main__":
