@@ -102,7 +102,19 @@ CSS INDEX
     min-width: 16px;
     margin: 3px;
 }
+.img-about{
 
+    display: block;
+    margin:10px auto;
+    padding:10px;
+    max-height: 380px;
+}
+.info-text{
+
+    padding: 100px 2px;
+    font-size: 16px;
+    color: #666;
+}
 /*-----------------
 1. Google font
 ------------------*/
@@ -194,6 +206,7 @@ input:-webkit-autofill:focus {
 }
 
 .v-center {
+    padding-top: 18px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -207,7 +220,7 @@ input:-webkit-autofill:focus {
 }
 
 .section-padding {
-    padding: 120px 0;
+    padding: 80px 0;
 }
 
 .social-menu {
@@ -300,7 +313,7 @@ input:-webkit-autofill:focus {
 }
 
 .page-title h2 {
-    text-transform: uppercase;
+    text-transform: capitalize;
     position: relative;
     margin-bottom: 20px;
     padding-bottom: 20px;
@@ -426,8 +439,8 @@ input:-webkit-autofill:focus {
 
 .mainmenu-area #primary-menu > ul > li > a:hover:before,
 .mainmenu-area #primary-menu > ul > li.active > a:before {
-    opacity: 1;
-    top: 0;
+/*    opacity: 1;
+*/    top: 0;
 }
 
 .mainmenu-area #primary-menu ul li.active a,
@@ -437,6 +450,7 @@ input:-webkit-autofill:focus {
 
 .mainmenu-area.affix {
     background-color: #138fc2;
+    box-shadow:0 8px 1px 1px rgba(0,0,0,0.04), 0 1px 22px 2px rgba(0,0,0,0.02), 0 5px 5px -3px rgba(0,0,0,0.3);
 }
 
 
