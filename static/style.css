@@ -35,6 +35,32 @@ CSS INDEX
     margin-top: 50px;
     padding-top:  30px;
 }
+.timeline__content h2{
+
+    padding: 10px;
+    color: #686f85;
+    font-size: 18px!important;
+    font-weight: 600px!important;
+}
+
+.timeline__content p{
+
+    font-size: 16px!important;
+    color: #686f85;
+
+    line-height: 1.5!important;
+
+}
+.timeline__content  li {
+    color: #686f85;
+
+    font-size: 16px!important;
+    line-height: 1.5!important;
+
+}
+.timeline__content{
+    padding：30px;
+}
 
 /*-----------------
 1. Google font
