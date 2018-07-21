@@ -62,6 +62,11 @@ CSS INDEX
     padding：30px;
 }
 
+.timeline__content{
+
+    border:#fff!important;
+    padding: 3em!important;
+}
 /*-----------------
 1. Google font
 ------------------*/
