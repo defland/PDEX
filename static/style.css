@@ -67,11 +67,47 @@ CSS INDEX
     border:#fff!important;
     padding: 3em!important;
 }
+
+.bluebutton{
+
+    background-image: linear-gradient(to right,#185a8c 0%,#52a1c3 100%)!important;
+    border-image: linear-gradient(to right,#185a8c 0%,#52a1c3 100%)!important;
+    border:3px!important;
+}
+.pdex-social{
+
+    list-style: none;
+    padding: 0px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+
+}
+.pdex-social li{
+
+    display: block;
+    float: left;
+    padding: 3px;
+    margin-right: 9px;
+    width: 28px;
+    height:28px;
+    background: rgba(255,255,255,0.94);
+    border-radius: 90px;
+
+}
+.social-img{
+
+    display: block;
+    max-height: 16px;
+    min-width: 16px;
+    margin: 3px;
+}
+
 /*-----------------
 1. Google font
 ------------------*/
 
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
+/*@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');*/
 
 /*-------------------
 2. Theme Default CSS
